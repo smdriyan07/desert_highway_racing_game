@@ -964,5 +964,6 @@ while running:
         screen.blit(frame, (offset_x, offset_y))
 
     pygame.display.flip()
+    await asyncio.sleep(0)
 
 pygame.quit()
